@@ -36,7 +36,7 @@ def get_albums(id):
     print(type(genre))
     df = data2[data2["Genre"] == genre]
     df = df.sample(n=25)
-    print(df)
+    # print(df)
     return df_to_json(df)
 
 
